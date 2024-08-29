@@ -2,7 +2,7 @@
 
 clc
 clear
-% close all fjkdshkfdhkh;
+% close all;
 
 tic
 parameters3
