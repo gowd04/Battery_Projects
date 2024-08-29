@@ -8,6 +8,7 @@ function [value,isterminal,direction] = breakode_battery(t,y,Index_chdisch,~,~,~
     P1_p = y(2*N_p+N_m+2*N_n+1:3*N_p+N_m+2*N_n);
     P1_n = y(3*N_p+N_m+2*N_n+1:3*N_p+N_m+3*N_n);
     
+    %jdbsajsbja
     
     if Index_chdisch == 1 %% CC discharging
         
